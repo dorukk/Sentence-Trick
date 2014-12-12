@@ -1,0 +1,11 @@
+Console.WriteLine("Enter a sentence !");
+            string sentence = Console.ReadLine();
+            Console.Clear();
+            for (int i = 0; i < sentence.Length; i++)
+            {
+                
+                Console.SetCursorPosition(i, i);
+                Console.Write(sentence.Substring(i, 1));
+            }
+            
+                Console.ReadKey();
